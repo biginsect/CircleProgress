@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--open Anti-aliasing or not-->
+    <attr name="antiAlias" format="boolean"/>
+    <!--the start angle for Arc,acquiesce three o'clock ,clockwise degrees;if angle < 0 or >360 ,take the remainder-->
+    <attr name="startAngle" format = "float"/>
+    <!--degree for Arc-->
+    <attr name="sweepAngle" format = "float"/>
+    <!--Animation Time-->
+    <attr name="animTime" format="integer"/>
+    <!--value for draw content -->
+    <attr name="maxValue" format="float"/>
+    <attr name="value" format="float"/>
+    <!--unit of draw content-->
+    <attr name="unit" format="string|reference"/>
+    <attr name="unitSize" format="dimension"/>
+    <attr name="unitColor" format="color|reference"/>
+    <!--Tips for corresponding draw content-->
+    <attr name="hint" format="string|reference"/>
+    <attr name="hintSize" format="dimension"/>
+    <attr name="hintColor" format="color|reference"/>
+    <!--precision,default is o-->
+    <attr name="precision" format="integer"/>
+    <attr name="valueSize" format="dimension"/>
+    <attr name="valueColor" format="color|reference"/>
+    <!--Arc corlor,several gradual change-->
+    <attr name="arcColor1" format="color|reference"/>
+    <attr name="arcColor2" format="color|reference"/>
+    <attr name="arcColor3" format="color|reference"/>
+    <!--background color for Arc,default is white-->
+    <attr name="bgArcColor" format="color|reference"/>
+    <!--Arc width-->
+    <attr name="arcWidth" format="dimension"/>
+    <!--Arc color-->
+    <attr name="arcColors" format="color|reference"/>
+    <!--offset of word,one the coreesponding for angle radii-->
+    <attr name="textOffsetPercentInRadius" format="float"/>
+
+    <!--Circle Progress-->
+    <declare-styleable name="CircleProgress">
+        <attr name="antiAlias"/>
+        <attr name="startAngle"/>
+        <attr name="sweepAngle"/>
+        <attr name="animTime"/>
+        <attr name="maxValue"/>
+        <attr name="value"/>
+        <attr name="precision"/>
+        <attr name="valueSize"/>
+        <attr name="valueColor"/>
+        <attr name="textOffsetPercentInRadius"/>
+        <!--hint of draw content-->
+        <attr name="hint"/>
+        <attr name="hintSize"/>
+        <attr name="hintColor"/>
+        <!--unit of draw content-->
+        <attr name="unit"/>
+        <attr name="unitSize"/>
+        <attr name="unitColor"/>
+        <!--arc width-->
+        <attr name="arcWidth"/>
+        <attr name="arcColors"/>
+        <!-- color of background arc-->
+        <attr name="bgArcColor"/>
+        <!--width of background arc-->
+        <attr name="bgArcWidth" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="DialogPregress">
+        <attr name="antiAlias"/>
+        <attr name="startAngle"/>
+        <attr name="sweepAngle"/>
+        <attr name="animTime"/>
+        <attr name="maxValue"/>
+        <attr name="value"/>
+        <attr name="precision"/>
+        <attr name="valueSize"/>
+        <attr name="valueColor"/>
+        <attr name="textOffsetPercentInRadius"/>
+        <!--draw unit-->
+        <attr name="unit"/>
+        <attr name="unitSize"/>
+        <attr name="unitColor"/>
+        <!--Tips for draw-->
+        <attr name="hint"/>
+        <attr name="hintSize"/>
+        <attr name="hintColor"/>
+        <!--arc width-->
+        <attr name="arcWidth"/>
+        <!--scale width-->
+        <attr name="dialWidth" format="dimension|reference"/>
+        <!--gaps of scale-->
+        <attr name="dialIntervalDegree" format="integer"/>
+        <attr name="arcColors"/>
+        <attr name="bgArcColor"/>
+        <attr name="dialColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="waveProgress">
+        <attr name="antiAlias"/>
+        <attr name="darkWaveAnimTime" format="integer"/>
+        <attr name="lightWaveAnimTime" format="integer"/>
+        <attr name="maxValue"/>
+
+        <attr name="value"/>
+        <attr name="valueSize"/>
+        <attr name="valueColor"/>
+
+        <attr name="hint"/>
+        <attr name="hintSize"/>
+        <attr name="hintColor"/>
+
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="circleColor" format="color|reference"/>
+        <attr name="bgCircleColor" format="color|reference"/>
+
+        <attr name="lockWave" format="boolean"/>
+        <attr name="waveNum" format="integer"/>
+        <attr name="waveHeight" format="dimension"/>
+        <attr name="darkWaveColor" format="color|reference"/>
+        <attr name="showLightWave" format="boolean"/>
+        <attr name="lightWaveColor" format="color|reference"/>
+        <!--direction of light wave-->
+        <attr name="lightWaveDirect" format="enum">
+            <enum name="L2R" value="0"/>
+            <enum name="R2L" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>
